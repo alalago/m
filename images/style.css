@@ -52,7 +52,7 @@
 	
 	
 	@media only screen and (min-width: 420px) {
-		.container { width: 100%; position: relative; border: none;overflow-x: hidden;}
+		.container { width: 100%; position: relative; border: none;overflow-x: visible;}
 		.topimg { margin-top: 8%; }
 			.topimg img { width:24%; height:auto; margin-left: 60%; }
 		.main { width: 100%; margin-top: 0%;}
@@ -97,7 +97,7 @@
 	
 	
 	@media only screen and (min-width: 768px) {
-		.container { width: 100%; position: relative;border: none;overflow-x: auto;}
+		.container { width: 100%; position: relative;border: none;overflow-x: visible;}
 		.topimg { margin-top: 8%; }
 			.topimg img { width:16%; height:auto; margin-left: 66%; }
 		.main { width: 100%; margin-top: 3%;}
@@ -121,7 +121,7 @@
 	}
 	
 	@media only screen and (min-width: 1024px) {
-		.container { width: 100%; position: relative;overflow-x: auto; }
+		.container { width: 100%; position: relative;overflow-x: visible; }
 		.topimg { margin-top: 6%; }
 			.topimg img { width:14%; height:auto; margin-left: 66%; }
 		.main { width: 100%; margin-top: 3%;}
@@ -175,7 +175,7 @@
 	
 	
 	@media only screen and (min-width: 1440px) {
-		.container { width: 100%; position: relative;overflow-x: auto; }
+		.container { width: 100%; position: relative;overflow-x: visible; }
 		.topimg { margin-top: 3%; }
 			.topimg img { width:9.8%; height:auto; margin-left: 50%; }
 		.main { width: 1920px; margin-top: -3%;}
