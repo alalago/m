@@ -15,7 +15,6 @@ $(window).mouseover(function(evt){
 	
 
 
-//mobile :active
-document.body.addEventListener("touchstart", function(){}, true);	
-	
+//mobile :active	
+document.addEventListener("touchstart", function() {},false);
 
