@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-	head,body { margin: 0 auto; padding: 0; overflow-x: hidden; text-align: center; max-width: 1920px;  font-family: Gill Sans, Gill Sans MT, Helvetica, Arial, sans-serif; }
+	head,body { margin: 0 auto; padding: 0; overflow-x: hidden; text-align: center; max-width: 1920px;  font-family: Gill Sans, Gill Sans MT, Helvetica, Arial, sans-serif; -moz-user-select: none;-webkit-user-select: none;}
 	* {margin: 0;padding: 0;}
 	a {text-decoration:none; display: inline-block;}
 	
