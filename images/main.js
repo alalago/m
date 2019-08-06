@@ -41,13 +41,13 @@ $(document).mouseover(function(evt){
     var alpha = event.alpha,
         beta = event.beta,
         gamma = event.gamma;
-	$(".building").css("transform","translate3d("+(gamma/5)+"%,"+(beta/10)+"%,0)");	
-	$(".green01").css("transform","translate3d("+(gamma/5)+"%,"+(beta/10)+"%,0)");	
-	$(".green02").css("transform","translate3d("+(gamma/5)+"%,"+(beta/10)+"%,0)");	
-	$(".rainbow").css("transform","translate3d("+(gamma/5)+"%,"+(beta/10)+"%,0)");	
-	$(".mypic").css("transform","translate3d("+(gamma/5)+"%,"+(beta/10)+"%,0)");	
-	$(".train").css("transform","translate3d("+(gamma/5)+"%,"+(beta/10)+"%,0)");	
-	$(".yellowline").css("transform","translate3d("+(gamma/5)+"%,"+(beta/10)+"%,0)");	
+	$(".building").css("transform","translate3d("+(gamma/3)+"%,"+(beta/8)+"%,0)");	
+	$(".green01").css("transform","translate3d("+(gamma/3)+"%,"+(beta/8)+"%,0)");	
+	$(".green02").css("transform","translate3d("+(gamma/3)+"%,"+(beta/8)+"%,0)");	
+	$(".rainbow").css("transform","translate3d("+(gamma/3)+"%,"+(beta/8)+"%,0)");	
+	$(".mypic").css("transform","translate3d("+(gamma/3)+"%,"+(beta/8)+"%,0)");	
+	$(".train").css("transform","translate3d("+(gamma/3)+"%,"+(beta/8)+"%,0)");	
+	$(".yellowline").css("transform","translate3d("+(gamma/3)+"%,"+(beta/8)+"%,0)");	
 
   }, false);
 
