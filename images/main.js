@@ -46,7 +46,7 @@ $(document).mouseover(function(evt){
 	$(".green02").css("transform","translate3d("+(gamma/2)+"%,"+((beta-5)/8)+"%,0)");	
 	$(".rainbow").css("transform","translate3d("+(gamma/1)+"%,"+((beta-5)/8)+"%,0)");	
 	$(".mypic").css("transform","translate3d("+(gamma/2)+"%,"+((beta-5)/8)+"%,0)");	
-	$(".train").css("transform","translate3d("+(gamma/4)+"%,"+((beta-5)/8)+"%,0)");	
+	$(".train").css("transform","translate3d("+(gamma/3)+"%,"+((beta-5)/8)+"%,0)");	
 	$(".yellowline").css("transform","translate3d("+(gamma/3)+"%,"+((beta-5)/8)+"%,0)");	
 
   }, false);
