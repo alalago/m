@@ -42,12 +42,12 @@ $(document).mouseover(function(evt){
         beta = event.beta,
         gamma = event.gamma;
 	$(".building").css("transform","translate3d("+(gamma/1.5)+"%,"+((beta-5)/8)+"%,0)");	
-	$(".green01").css("transform","translate3d("+(gamma/1.5)+"%,"+((beta-5)/8)+"%,0)");	
-	$(".green02").css("transform","translate3d("+(gamma/1.5)+"%,"+((beta-5)/8)+"%,0)");	
-	$(".rainbow").css("transform","translate3d("+(gamma/1.5)+"%,"+((beta-5)/8)+"%,0)");	
+	$(".green01").css("transform","translate3d("+(gamma/4)+"%,"+((beta-5)/8)+"%,0)");	
+	$(".green02").css("transform","translate3d("+(gamma/2)+"%,"+((beta-5)/8)+"%,0)");	
+	$(".rainbow").css("transform","translate3d("+(gamma/1)+"%,"+((beta-5)/8)+"%,0)");	
 	$(".mypic").css("transform","translate3d("+(gamma/2)+"%,"+((beta-5)/8)+"%,0)");	
-	$(".train").css("transform","translate3d("+(gamma/2)+"%,"+((beta-5)/8)+"%,0)");	
-	$(".yellowline").css("transform","translate3d("+(gamma/1.5)+"%,"+((beta-5)/8)+"%,0)");	
+	$(".train").css("transform","translate3d("+(gamma/4)+"%,"+((beta-5)/8)+"%,0)");	
+	$(".yellowline").css("transform","translate3d("+(gamma/3)+"%,"+((beta-5)/8)+"%,0)");	
 
   }, false);
 
