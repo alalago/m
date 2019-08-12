@@ -25,7 +25,6 @@
 		.nav ul li:first-child { display:inline-block;}
 		.nav ul li a {position:relative; display:inline-block; }
 		.nav img { width: 1.9rem; height:auto; vertical-align:middle; margin: -0.5rem 1.8rem 0 0;}
-		.nav font {font-family: Gill Sans,oswald;}
 
 
 		@media only screen and (max-width: 420px) {
@@ -197,7 +196,7 @@
 		.nav {  margin-top: 35%;   padding-left: 20%;  }
 		.nav ul{display: table;}
 		.nav ul li{display:inline;}
-		.nav font { font-size: 1.05rem; letter-spacing: 0.2rem;font-family: Gill Sans; margin: 0 1.05rem;}
+		.nav font { font-size: 1.05rem; letter-spacing: 0.2rem; margin: 0 1.05rem;}
 		.side { display: block; width: 1920px; margin-top: -3%;}
 			.leftside01 { position: absolute; left: 0%; transform: translateY(50%); z-index: -5;}
 			.leftside02 { position: absolute; left: 0%; transform: translateY(400%); z-index: -5;}
