@@ -23,6 +23,7 @@
 		.nav ul{margin: 0; padding: 0; display: block;}
 		.nav ul li{display:inline-block; text-align: center;}
 		.nav ul li:first-child { display:inline-block;}
+		.nav ul li a {position:relative; display:inline-block; }
 		.nav img { width: 1.9rem; height:auto; vertical-align:middle; margin: -0.5rem 1.8rem 0 0;}
 		.nav font {font-family: Gill Sans,oswald;}
 
@@ -43,6 +44,7 @@
 		.nav { margin-top: 115%; padding-left: 0;}
 		.nav ul li{  width: 60%; padding: 2.2%; margin: 2.5vw 16%; border: 0.5px solid #848E90;  }
 		.nav ul li:first-child { display:none;}
+		.nav ul li a {position: relative; display: block; }
 		.nav font { font-size: .9rem; letter-spacing: 0.13rem; margin: 0; color: #848e90;}
 		.side { display: none;}
 		
@@ -83,6 +85,7 @@
 		.nav {  margin-top: 84%;   padding-left: 0;  }
 		.nav ul li{  width: 56%; padding: 2%; margin: 2vw 20%; border: 0.5px solid #848E90;  }
 		.nav ul li:first-child { display:none;}
+		.nav ul li a {position: relative; display: block; }
 		.nav font { font-size: 1.4rem; letter-spacing: 0.2rem; margin: 0 1.8rem; color: #848e90;}
 		.side { display: none;}
 		
@@ -120,6 +123,7 @@
 		.nav {  margin-top: 60%;   padding-left: 0;  }
 		.nav ul li{  width: 56%; padding: 2%; margin: 2vw 20%; border: 0.5px solid #848E90;  }
 		.nav ul li:first-child { display:none;}
+		.nav ul li a {position: relative; display: block; }
 		.nav font { font-size: 1.4rem; letter-spacing: 0.2rem; margin: 0 1.8rem; color: #848e90;}
 		.side { display: none;}
 		
@@ -141,6 +145,7 @@
 		.nav ul{display: table;}
 		.nav ul li{display:inline; width:auto; padding: 0; margin: 0; border: 0;  }
 		.nav ul li:first-child { display:inline-block;}
+		.nav ul li a {position:relative; display:inline-block; }
 		.nav font { font-size: 1.2rem; letter-spacing: 0.2rem; margin: 0 1.8rem; color: #000;}
 		.side { display: none;}
 		a{
