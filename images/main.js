@@ -51,7 +51,7 @@ $(document).mouseover(function(evt){
 		$(".mypic").css("transform","translate3d("+(gamma/2)+"%,"+((beta-5)/8)+"%,0)");	
 		$(".train").css("transform","translate3d("+(gamma/2)+"%,"+((beta-5)/8)+"%,0)");	
 		$(".yellowline").css("transform","translate3d("+(gamma/3)+"%,"+((beta-5)/8)+"%,0)");	
-	  };
+	  }
   
 	  else{
 		$(".building").css("transform","translate3d("+(beta/1.5)+"%,"+((gamma-5)/8)+"%,0)");	
