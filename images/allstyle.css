@@ -96,7 +96,7 @@
 	
 	
 	
-	.dot1 {top: -20vw; right: -180vw; }
+	.dot1 {top: -20vw; right: -180vw;display: none; }
 	.dot2 {top: 145vw; left: 6vw; }
 	.dot3 {top: 124vw; right: 10vw; }
 	.dot4 {top: 180vw; left: 76vw; }
