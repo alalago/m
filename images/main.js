@@ -43,7 +43,7 @@ $(document).mouseover(function(evt){
         gamma = event.gamma;
 	  
 	  
-	  if( gamma<89 || gamma>-89 ){	
+	  if( $(window).width() < $(window).height() ){	
 		$(".building").css("transform","translate3d("+(gamma/1.5)+"%,"+((beta-5)/8)+"%,0)");	
 		$(".green01").css("transform","translate3d("+(gamma/4)+"%,"+((beta-5)/8)+"%,0)");	
 		$(".green02").css("transform","translate3d("+(gamma/2)+"%,"+((beta-5)/8)+"%,0)");	

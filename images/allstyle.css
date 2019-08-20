@@ -26,7 +26,7 @@
 
 
 
-.wrapper{ position: relative;}
+.wrapper{ position: relative;overflow-x: hidden}
 .dot1,.dot2,.dot3,.dot4,.dot5,.dot6,.dot7{ position: absolute; border-radius: 50%; z-index: -10;}
 .dot1 { height: 350px;width: 350px; background-color: #F98544; top: 120px; right: 100px; }
 .dot2 { height: 180px;width: 180px; background-color: #F8C856; top: 650px; left: -44px; }

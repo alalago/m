@@ -13,12 +13,6 @@ $('.nav span').click( function(){
 });
 
 
-//視窗縮放重整
-$(window).ready(function(){
-	$(window).resize(function() {
-			location.reload();
-	});
-});
 //
 
 
