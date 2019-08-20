@@ -13,10 +13,18 @@ $('.nav span').click( function(){
 });
 
 
+//視窗縮放重整
+ var windowWidth = $(window).width();
+
+ $(window).resize(function(){
+	 if ($(window).width() != windowWidth) {
+		 windowWidth = $(window).width();
+		 location.reload();
+	 }
+ });
+
+
 //
-
-
-
 var w = window.innerWidth;
 var th = $(".text").get(0).offsetHeight;
 var ph =$(".about .pic img").get(0).offsetHeight;
