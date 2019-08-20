@@ -54,6 +54,14 @@ $(document).mouseover(function(evt){
 	  };
   
 	  else{
+		$(".building").css("transform","translate3d("+(beta/1.5)+"%,"+((gamma-5)/8)+"%,0)");	
+		$(".green01").css("transform","translate3d("+(beta/4)+"%,"+((gamma-5)/8)+"%,0)");	
+		$(".green02").css("transform","translate3d("+(beta/2)+"%,"+((gamma-5)/8)+"%,0)");	
+		$(".rainbow").css("transform","translate3d("+(beta/1)+"%,"+((gamma-5)/8)+"%,0)");	
+		$(".mypic").css("transform","translate3d("+(beta/2)+"%,"+((gamma-5)/8)+"%,0)");	
+		$(".train").css("transform","translate3d("+(beta/2)+"%,"+((gamma-5)/8)+"%,0)");	
+		$(".yellowline").css("transform","translate3d("+(beta/3)+"%,"+((gamma-5)/8)+"%,0)");	
+
 		  
 	  }
   
