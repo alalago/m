@@ -74,5 +74,25 @@ $(document).mouseover(function(evt){
   }, false);
 
   
+//CONTACT
+$('#CONTACT').click( function(){
+	$('.hide').slideToggle(200);
+});
+$('.shadow , .sayhello span').click( function(){
+	$('.hide').slideToggle(0);
+});
+
+$('.sayhello').click( function(){
+});
+//複製Ｅmial
+ function copyEmail(element){
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+  $(".hide button").text("COPYED!");
+  $(".hide button").css('background-color','#017266');
+ }
 
 

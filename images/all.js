@@ -12,16 +12,26 @@ $('.nav span').click( function(){
 	$('.nav ul').slideToggle(300);
 });
 
+//CONTACT
+$('#CONTACT').click( function(){
+	$('.hide').slideToggle(200);
+});
+$('.shadow , .sayhello span').click( function(){
+	$('.hide').slideToggle(0);
+});
 
-//視窗縮放重整
- var windowWidth = $(window).width();
-
- $(window).resize(function(){
-	 if ($(window).width() != windowWidth) {
-		 windowWidth = $(window).width();
-		 location.reload();
-	 }
- });
+$('.sayhello').click( function(){
+});
+//複製Ｅmial
+ function copyEmail(element){
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+  $(".hide button").text("COPYED!");
+  $(".hide button").css('background-color','#017266');
+ }
 
 
 //
