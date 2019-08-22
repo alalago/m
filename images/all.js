@@ -31,6 +31,8 @@ $('.sayhello').click( function(){
   $temp.remove();
   $(".hide button").text("COPYED!");
   $(".hide button").css('background-color','#017266');
+  $("html, body").scrollTop($this.offset().top);
+
  }
 
 

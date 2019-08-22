@@ -12,13 +12,13 @@
 
 	
 
-@media only screen and (min-width: 768px) { 
+@media only screen and (max-width: 768px) { 
 	 a:active { background-color: #F8C856 !important;}
 	 a:active font { color: #fff;}
 
 }
 
-@media only screen and (max-width: 769px) { 
+@media only screen and (min-width: 769px) { 
 
 		a{
 		  -webkit-transition: all 0.2s ease;
