@@ -13,7 +13,7 @@
 @media only screen and (max-width: 768px) { 
 	 .nav a:active { background-color: #F8C856 !important;}
 	 .nav a:active font { color: #fff;}
-
+	 .nav ul{ z-index: 9999; }
 }
 
 @media only screen and (min-width: 769px) { 
