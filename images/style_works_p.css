@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+/*nav*/
+@media only screen and (max-width: 768px) { 
+.nav ul li:nth-child(2),.nav ul li:nth-child(3) { display:none;}
+}
+
+@media only screen and (max-width: 768px) { 
+	 .focus { margin: 8vw 0;}
+}
+	a {text-decoration:none; display: inline-block;}
+	h1 { font-size: 2.8rem; letter-spacing: 0.1rem; font-weight: 550; line-height: 8rem; text-align: left;}
+	h3 { font-size: 1.6rem;  letter-spacing: 0.05rem;font-weight: 500; line-height: 2.5rem; text-align: left;}
+	p { font-size: 1rem; font-family: Helvetica,PingFangTC-light; font-weight: 100;  text-align:justify;}
+
+.wrapper{ }
+.container{ }
+	.main{ padding: 0 20vw; }
+	.main .title { width: 100%;}
+	.main .focus { background-color: #F9F9F9; width: 100%; }
+	.main .focus p { padding: 3vw 8vw; line-height: 2rem;}
+	.main .focus p span { font-size: 0.3rem;  letter-spacing: -0.1rem}
+	.main .pic{ margin:5vw 0; }
+	.main .content { width: 100%; }
+	.main .content p { padding: 0vw 8vw; line-height: 2.5rem;}
+	.main .content p span { font-size: 0.3rem;  letter-spacing: -0.1rem}
+	
+@media only screen and (max-width: 595px) { 
+	.main{ padding: 0 0vw }
+	h1 { font-size: 2rem; letter-spacing: 0.1rem; font-weight: 550; line-height: 8rem; text-align: left;}
+	h3 { font-size: 1.5rem;  letter-spacing: 0.05rem;font-weight: 500; line-height: 2rem; text-align: left;}
+	p { font-size: 1rem; letter-spacing: 0.1rem; font-family: Helvetica,PingFangTC-light; font-weight: 100; line-height: 1.8rem; text-align:justify;}
+	.main .focus p { padding: 8vw 8vw;}
+	}	
+
+@media only screen and (min-width: 596px) and (max-width: 768px) {
+	.main .focus p { padding: 8vw 8vw; line-height: 2.5rem;}
+	p { font-size: 1.2rem; letter-spacing: 0.1rem;  font-weight: 100; line-height: 2rem; }
+	.main{ padding: 0 10vw }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) { 
+	.main{ padding: 0 10vw }
+
+	h1 { font-size: 2.8rem; letter-spacing: 0.1rem; font-weight: 550; line-height: 8rem; }
+	h3 { font-size: 2rem;  letter-spacing: 0.05rem;font-weight: 500; line-height: 2.5rem; }
+	p { font-size: 1.3rem; letter-spacing: 0.1rem;  font-weight: 100; line-height: 2.5rem; }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) { 
+	.main{ padding: 0 20vw }
+
+	h1 { font-size: 2.8rem; letter-spacing: 0.1rem; font-weight: 550; line-height: 8rem;}
+	h3 { font-size: 1.6rem;  letter-spacing: 0.05rem;font-weight: 500; line-height: 2.5rem;}
+	p { font-size: 1.1rem; letter-spacing: 0.1rem;  font-weight: 100; line-height: 2.5rem; }
+}
+@media only screen and (min-width: 1441px)and (max-width: 1720px) { 
+	.main{ padding: 0 20vw }
+	h1 { font-size: 3.8rem; letter-spacing: 0.1rem; font-weight: 550; line-height: 12rem; }
+	h3 { font-size: 2.4rem;  letter-spacing: 0.05rem;font-weight: 500; line-height: 3.2rem; }
+	p { font-size: 1.3rem; letter-spacing: 0.1rem;  font-weight: 100; line-height: 3rem; }
+}
+@media only screen and (min-width: 1721px) { 
+	.main{ padding: 0 15vw }
+	h1 { font-size: 3.8rem; letter-spacing: 0.1rem; font-weight: 550; line-height: 12rem; }
+	h3 { font-size: 2.4rem;  letter-spacing: 0.05rem;font-weight: 500; line-height: 3.2rem; }
+	p { font-size: 1.3rem; letter-spacing: 0.1rem;  font-weight: 100; line-height: 2.5rem; }
+}
+
+
+
