@@ -35,4 +35,13 @@ $('.sayhello').click( function(){
 
  }
 	
+//視窗縮放重整
+ var windowWidth = $(window).width();
+
+ $(window).resize(function(){
+	 if ($(window).width() != windowWidth) {
+		 windowWidth = $(window).width();
+		 location.reload();
+	 }
+ });
 
