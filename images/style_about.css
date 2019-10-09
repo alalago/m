@@ -9,7 +9,7 @@
 	a {text-decoration:none; display: inline-block;}
 	h1 { font-size: 2.8rem; letter-spacing: 0.1rem; font-weight: 550; line-height: 8rem; text-align: left;}
 	h3 { font-size: 2rem;  letter-spacing: 0.05rem;font-weight: 500; line-height: 2.5rem; text-align: left;}
-	p { font-size: 1rem; letter-spacing: 0.1rem; font-family: verdana,PingFangTC-light,Microsoft JhengHei; font-weight: 100; line-height: 2rem; text-align:justify;}
+	p { font-size: 1rem; letter-spacing: 0.1rem; font-family: Gill Sans, Gill Sans MT, Arial, sans-serif;font-weight: 100; line-height: 2rem; text-align:justify;}
 
 .wrapper{ }
 .dot1,.dot2,.dot3,.dot4,.dot5,.dot6,.dot7{ position: absolute; border-radius: 50%; z-index: -10;}
