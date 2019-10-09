@@ -184,3 +184,23 @@
 .circle3{ top:49vw;left: 69vw;}
 .circle4{ top:45vw;left: 7vw;}
 }
+
+
+
+
+
+
+
+/* MORE*/
+.more button{ width: 20vw ;height: 3vw; margin: 5vw 0; border: 0.5px solid #848E90; background-color: #fff;font-size: 1.2rem;color: #848e90;outline:none;}
+.more button:active { background-color: #F8C856;border: 0.5px solid #F8C856;}
+.more button:active { color: #fff;}
+@media only screen and (max-width: 960px) { 
+	.more button{ width: 40vw ;height: 5vw;}
+}
+
+@media only screen and (max-width: 595px) { 
+	.more button{ width: 60vw ;height: 8vw;}
+}
+
+

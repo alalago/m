@@ -50,7 +50,7 @@
 	.main{ padding: 0 10vw }
 	h1 { font-size: 2rem; letter-spacing: 0.1rem; font-weight: 550; line-height: 8rem; text-align: left;}
 	h3 { font-size: 1.5rem;  letter-spacing: 0.05rem;font-weight: 500; line-height: 2rem; text-align: left;}
-	p { font-size: 1rem; letter-spacing: 0.1rem; font-family: Helvetica,PingFangTC-light; font-weight: 100; line-height: 1.8rem; text-align:justify;}
+	p { font-size: 1rem; letter-spacing: 0.1rem; font-weight: 100; line-height: 1.8rem; text-align:justify;}
 	}	
 
 @media only screen and (min-width: 596px) and (max-width: 768px) {
