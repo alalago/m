@@ -39,7 +39,7 @@
 	.nav ul li{ display:inline-block; text-align: center; width: 8vw;}
 	.nav ul li a { position:relative; display:inline-block; }
 	.nav img { width:60px; height:auto; vertical-align:middle;}
-	.nav font {font-family: Gill Sans,oswald;font-size: 1rem; letter-spacing: 0.1rem; margin: 0; color: #F8C856;}
+	.nav font {font-family: Gill Sans, Gill Sans MT, Arial, sans-serif;font-size: 1rem; letter-spacing: 0.1rem; margin: 0; color: #F8C856;}
 
 
 @media only screen and (max-width: 595px) { 
@@ -55,7 +55,7 @@
 	.nav ul li{ display:block; text-align: center; width: 50vw;}
 	.nav ul li a { display: block;  padding:  6vw 0 ;  background-color: #F9F9F9; border: 0.5px #e6e6e6 solid;}
 	.nav img { width:60px; height:auto; vertical-align:middle;}
-	.nav font {font-family: Gill Sans,oswald;font-size: 1rem; letter-spacing: 0.1rem; margin: 0; color: #848E90;}
+	.nav font {font-size: 1rem; letter-spacing: 0.1rem; margin: 0; color: #848E90;}
 	}	
 
 @media only screen and (min-width: 596px) and (max-width: 768px) {
@@ -70,7 +70,7 @@
 	.nav ul li{ display:block; text-align: center; width: 50vw;}
 	.nav ul li a { display: block;  padding:  6vw 0 ;  background-color: #F9F9F9; border: 0.5px #e6e6e6 solid;}
 	.nav img { width:60px; height:auto; vertical-align:middle;}
-	.nav font {font-family: Gill Sans,oswald;font-size: 1rem; letter-spacing: 0.1rem; margin: 0; color: #848E90;}
+	.nav font {font-size: 1rem; letter-spacing: 0.1rem; margin: 0; color: #848E90;}
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) { 
 	.nav ul li{ width: 13vw;}
