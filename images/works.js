@@ -46,9 +46,3 @@ $('.sayhello').click( function(){
  });
 
 
-//鎖右鍵
-      $(document).ready(function() {  
-          $(document).get(0).oncontextmenu = function() {
-              return false;
-          };
-      }); 
