@@ -141,7 +141,7 @@ img {
 	.banner .bn_w {
 		width: 100% !important; 
 		margin: 3% 0 12% 0;
-		font-size: 1rem;
+		font-size: 1.2rem;
 		line-height:1.2rem;
 	}
 	.pic_gif{
@@ -149,7 +149,7 @@ img {
 		margin: -8% 0 12% 0 ;
 	}
 	p {
-		font-size: .6rem;
+		font-size: .9rem;
 	}
 /* 輪播 */
   .swiper-container{
