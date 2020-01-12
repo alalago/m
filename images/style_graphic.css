@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+h1 {
+	font-size: 2.8rem;
+	letter-spacing: 0.1rem;
+	font-weight: 550;
+	line-height: 8rem;
+	text-align: left;
+}
+h3 {
+	font-size: 1.6rem;
+	letter-spacing: 0.05rem;
+	font-weight: 500;
+	line-height: 2.5rem;
+	text-align: left;
+}
+p {
+	font-size: .9rem;
+	font-family: PingFangTC-light, Arial, Microsoft JhengHei;
+	font-weight: 100;
+	text-align: justify;
+}
+img {
+	width: 100%;
+}
+
+
+
+
+.wrapper {
+}
+.container {
+}
+.main {
+	margin: 5% 6% 5% 18%;
+}
+.main .silder{ margin: 2% 0 0 0;}
+
+.banner { 
+	display: flex;
+	justify-content: space-between;
+	margin: 6% 0;
+	height: auto;
+}
+.banner:nth-child(5),.banner:nth-child(6),.banner:nth-child(7),.banner:nth-child(11),.banner:nth-child(12),.banner:nth-child(13) { 
+	flex-direction: row-reverse;	
+}
+.banner .bn_pic {
+	width: 65%;
+}
+.banner .bn_w {
+	/*background-color: #F8F8F8;*/
+	border: 0;
+	width: 33%; 
+	text-align: left;
+	font-size: 1.2rem;
+	line-height:1.5rem;
+	letter-spacing: 0.1rem;
+}
+/* 文字顏色 */
+.banner .bn_w .font_g{
+	color: #017266;
+}
+.banner .bn_w .font_o{
+	color: #F98544;
+}
+.banner .bn_w .font_y{
+	color: #F8C856;
+}
+/* 輪播 */
+  .swiper-container{
+    --swiper-navigation-color: #fff;
+    --swiper-navigation-size: 30px;
+  }
+
+@media only screen and (min-width: 1290px) and (max-width: 1400px) {
+	.main {
+		margin: 5% 3% 5% 14%;
+	}
+}
+@media only screen and (min-width: 985px) and (max-width: 1290px) {
+	.main {
+		margin: 5% 3% 5% 13%;
+	}
+	.banner .bn_w {
+		line-height:1.1rem;
+	}
+	p {
+		font-size: .75rem;
+	}
+}
+@media only screen and (min-width: 595px) and (max-width: 985px) {
+	.main {
+		margin: 5% 7% 5% 20%;
+	}
+	.banner { 
+	display: block;
+	margin: 6% 0;
+}
+
+	.banner .bn_pic {
+	width: 100% !important;
+	margin: 3% 0 ;
+	}
+	.banner .bn_w {
+		width: 100% !important; 
+		margin: 3% 0 12% 0;
+		font-size: 1.2rem;
+		line-height:1.5rem;
+	}
+	.pic_gif{
+		width: 100%;
+		margin: -8% 0 12% 0 ;
+	}
+	p {
+		font-size: .9rem;
+	}
+	
+	
+	
+}
+@media only screen and (max-width: 595px) {
+	.main {
+		margin: 5% 6% 5% 6%;
+	}
+	.banner { 
+		display: block;
+		margin: 6% 0;
+	}
+
+	.banner .bn_pic {
+		width: 100% !important;
+		margin: 3% 0 ;
+	}
+		
+	.banner .bn_w {
+		width: 100% !important; 
+		margin: 3% 0 12% 0;
+		font-size: 1rem;
+		line-height:1.2rem;
+	}
+	.pic_gif{
+		width: 100%;
+		margin: -8% 0 12% 0 ;
+	}
+	p {
+		font-size: .6rem;
+	}
+/* 輪播 */
+  .swiper-container{
+    --swiper-navigation-color: #fff;
+    --swiper-navigation-size: 10px;
+  }
+	
+}
+ 
